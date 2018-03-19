@@ -1,0 +1,31 @@
+plugins {
+    id 'scala'
+   // id 'java'
+   // id 'com.github.johnrengelman.shadow' version '2.0.2'
+}
+group 'InterviewPractice'
+version '1.0-SNAPSHOT'
+
+
+/*apply plugin: 'java'*/
+apply plugin: 'scala'
+//apply plugin: 'com.github.johnrengelman.shadow'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+apply from: "$rootDir/dependencies.gradle"
+dependencies {
+    compile libraries.scala
+    //testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+/*shadowJar {
+    baseName = 'FlinkPOC'
+    classifier = null
+    version = 1
+}*/
+
+
