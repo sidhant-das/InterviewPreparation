@@ -68,6 +68,8 @@ object OptimalSolution extends App{
       totalpoints =totalpoints + a * lastvalue.length
       lastvalue += a
       println(totalpoints)
+
+      new changes
     }
   }
 
