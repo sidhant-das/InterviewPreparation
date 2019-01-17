@@ -1,5 +1,5 @@
 ext.libraries = [
 
         scala : [
-                'org.scala-lang:scala-library:2.11.8'
+                'org.scala-lang:scala-library:2.12.4'
         ]]

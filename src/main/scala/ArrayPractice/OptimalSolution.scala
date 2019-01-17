@@ -69,7 +69,6 @@ object OptimalSolution extends App{
       lastvalue += a
       println(totalpoints)
 
-      new changes
     }
   }
 
