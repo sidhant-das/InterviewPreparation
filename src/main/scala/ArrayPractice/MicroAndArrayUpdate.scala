@@ -15,14 +15,10 @@ object MicroAndArrayUpdate extends App{
         _ =>
           scala.io.StdIn.readLine().toInt
       }
-      while(){
-        val newarr = actualArr.map(_ + 1)
-      }
 
 
-      newarr.map{
 
-      }
+      //
 
   }
   def searcharray()={
