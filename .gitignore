@@ -1,5 +1,0 @@
-#####GIT ignore file####
-.idea
-*.iml
-out/
-.gradle
