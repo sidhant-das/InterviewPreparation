@@ -13,6 +13,7 @@ object InsertionSort extends App {
       arr(j) = temp
       j= j-1
       k = k -1
+      
     }
 
   }
